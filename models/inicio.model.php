@@ -3,10 +3,10 @@
     class inicio {
         
         public function __construct(array $res) {
-        	$this->clstr = $res['cleanstr'];
-        	$this->crud = $res['crud'];
-        	$this->rndr = $res['render'];
-        	$this->fima = $res['fileman'];
+            $this->clstr = $res['cleanstr'];
+            $this->crud = $res['crud'];
+            $this->rndr = $res['render'];
+            $this->fima = $res['fileman'];
             $this->seda = $_SESSION['u'];
         }
 

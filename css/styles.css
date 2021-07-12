@@ -1,0 +1,23 @@
+body {
+    font-size: 16px;
+}
+
+h1.title-web {
+    font-size: 2em;
+}
+
+.footer-card-custom {
+    background: none !important;
+    border-top: none !important;
+}
+
+#mapid { 
+    height: 88vh;
+    width: 100%;
+}
+
+#rptLst {
+    height: 44vh;
+    overflow-y: auto;
+    text-align: center;
+}
